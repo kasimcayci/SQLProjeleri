@@ -2,7 +2,7 @@
 --film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 16.99 küçük olma koşuluyla sıralayınız ( BETWEEN - AND yapısını kullanınız.)
 
 SELECT * FROM film
-WHERE replacement_cost BETWEEN 12.99 AND 16.98;
+WHERE replacement_cost BETWEEN 12.99 AND 16.98; -- AND yapısı kullanıldığında sınır olan değerler de gelecektir. Bu nedenle sorgu ön koşulunda 16.99'dan küçük olması istendiğinden 16.98 değeri verilmiştir. Aksi halde 16.99 değerleri de çıktıda gelir
 
 
 --İkinci sorgu
